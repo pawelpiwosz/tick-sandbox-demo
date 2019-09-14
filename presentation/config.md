@@ -1,4 +1,6 @@
-http://63.32.43.24:8888
+#### Connect to Chronograf from the browser
+
+`http://xx.xx.xx.xx:8888`
 
 ### Influx connection
 
