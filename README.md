@@ -6,7 +6,7 @@ example of my idea of future monitoring.
 
 ### Why TICK stack?
 
-The nswer is short. Time series database. What can be better for 
+The answer is short. Time series database. What can be better for 
 metrics and logs? 
 
 ### Other advantages on TICK
@@ -20,3 +20,8 @@ Of course, proper , secure config will take time, but this is obvious.
 __Complex__. All elements of the TICK stack combined are building great tool for monitoring.
 
 __Telegraf and InfluxDB are well known already__. Those two elements of TICK stack are known on the market. Telegraf is well recognized shipper, considered and used in many solutions, and InfluxDB is very popular DB for monitoring solutions. As backend for Grafana, Promoetheus and others.
+
+### InfluxData has its on stack, Why this, then?
+
+It started as my small project. First, I added second DB container. 
+So, relay was needed. If one, why not two? Then HAProxy for it, and Nginx (with another HAProxy) to have something "real" for monitor. And on the end, ab containers for load tests.
