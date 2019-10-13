@@ -7,10 +7,12 @@ packages.
 
 #### Install packages
 
-`sudo -i`
+`sudo -i`  
 `yum install docker curl wget git -y`
 
-`curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null`
+```
+curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null
+```
 
 `chmod +x /usr/local/bin/docker-compose`
 
